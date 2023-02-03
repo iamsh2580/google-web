@@ -1,0 +1,48 @@
+:root{
+    /* Color */
+    --white-color:#fff;
+    --black-color:rgb(0, 0, 0);
+    --grey-dark-color:#909090;
+    --grey-light-color:#e0e0e0;
+
+    /* size */
+    --padding:12px;
+    --avatar-size:36px;
+    
+    /* font */
+    --font-large:18px;
+    --font-medium:14px;
+    --font-small:12px;
+    --font-micro:10px
+}
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--white-color);
+    font-family: 'Noto Sans','Noto Sans KR' sans-serif;
+}
+button,
+button:focus{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: var(--white-color);
+}
+li{
+    list-style: none;
+}
+
+/* header */
+header{
+display: flex;
+justify-content: space-between;
+}
+
+.profileImg{
+    width: var(--avatar-size);
+    background-color: var(--grey-light-color);
+    border-radius: 100%;
+}
